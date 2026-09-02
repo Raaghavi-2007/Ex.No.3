@@ -37,6 +37,9 @@ You are a customer support chatbot. Help a customer track their order.
 ### Output:
 I'd be happy to help track your order. Please provide your order number, and I'll check its current status.
 
+Advantage: Simple and quick to use.
+Limitation: The response may be less structured or detailed.
+
 ### 2. Tabular Format Prompting:
 Tabular Format Prompting instructs the AI to organize information in a table. This is useful when customers have different types of problems and the chatbot needs to provide systematic responses.
 
@@ -48,6 +51,17 @@ Create a table showing common product issues and their solutions.
 | Device not turning on | Check power connection   |
 | Battery not charging  | Use the original charger |
 | Screen frozen         | Restart the device       |
+
+### Prompt 2:
+Create a table showing customer inquiries and chatbot responses.
+### Output:
+| Customer Inquiry           | Chatbot Response                               |
+| -------------------------- | ---------------------------------------------- |
+| Where is my order?         | Please provide your order number.              |
+| How do I return a product? | Follow the return instructions on our website. |
+| Product not working        | Let's go through some troubleshooting steps.   |
+
+### 3. Missing Word Prompting:
 
 
 
