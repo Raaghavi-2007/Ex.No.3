@@ -107,6 +107,7 @@ Provides context and can produce more relevant answers.
 ### Limitation: 
 The prompt is slightly more complex than a straightforward prompt.
 
+---
 ### Examples and Output:
 ### 1. Straightforward Prompts:
 Prompt 1:
@@ -189,6 +190,7 @@ Output:
 
 food (glucose)
 
+---
 ### Comparative Summary:
 
 | Prompt Type                      | Purpose / Evaluation                                                                                                          |
