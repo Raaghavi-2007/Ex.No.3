@@ -27,6 +27,30 @@ To write the prompts for these following prompt types and evaluate them.
 ### 1. Straightforward Prompting:
 A Straightforward Prompt gives the AI a clear and direct instruction about what it needs to do. It is simple, specific, and easy for the AI to understand.
 
+### Prompt 1:
+You are a customer support chatbot. Help a customer whose product is not turning on.
+### Output:
+I'm sorry you're experiencing this issue. Please check whether the device is properly connected to a power source and ensure the battery is charged. If the problem continues, let me know the product model.
+
+### Prompt 2:
+You are a customer support chatbot. Help a customer track their order.
+### Output:
+I'd be happy to help track your order. Please provide your order number, and I'll check its current status.
+
+### 2. Tabular Format Prompting:
+Tabular Format Prompting instructs the AI to organize information in a table. This is useful when customers have different types of problems and the chatbot needs to provide systematic responses.
+
+### Prompt 1:
+Create a table showing common product issues and their solutions.
+### Output:
+| Issue                 | Solution                 |
+| --------------------- | ------------------------ |
+| Device not turning on | Check power connection   |
+| Battery not charging  | Use the original charger |
+| Screen frozen         | Restart the device       |
+
+
+
 ### Conclusion 
 
 
