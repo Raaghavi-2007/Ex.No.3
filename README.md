@@ -1,11 +1,15 @@
 # Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
 ### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
+### REGISTER NUMBER : 212225040321
+### Aim: 
+To write the prompts for these following prompt types and evaluate them. 
+1. Straightforward Prompts
+2. Tabular Format Prompting
+3. Preceding Question Prompting
+4. Missing Word Prompting
 
-### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
-Procedure:
+### Procedure:
 1.	Straightforward Prompts:
     - •	"Define photosynthesis in one sentence."
     - 	"List three advantages of electric vehicles."
@@ -20,6 +24,8 @@ Procedure:
    •	"The capital of France is ____."
   •	"In photosynthesis, plants absorb sunlight to produce ____."
 
+### 1. Straightforward Prompting:
+A Straightforward Prompt gives the AI a clear and direct instruction about what it needs to do. It is simple, specific, and easy for the AI to understand.
 
 ### Conclusion 
 
