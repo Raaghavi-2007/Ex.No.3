@@ -25,8 +25,15 @@ To write the prompts for these following prompt types and evaluate them.
    •	"The capital of France is ____."
   •	"In photosynthesis, plants absorb sunlight to produce ____."
 ---
+### Definition of Prompting:
+
+Prompting is the process of giving instructions, questions, or input text (called a prompt) to an AI system so that it generates the desired output. The quality of the prompt directly affects the quality, accuracy, and relevance of the AI's response.
+
+In Prompt Engineering, different prompting techniques are used to guide AI models effectively for various tasks such as answering questions, generating content, summarizing information, and solving problems.
+
+---
 ### 1. Straightforward Prompting:
-A Straightforward Prompt gives the AI a clear and direct instruction about what it needs to do. It is simple, specific, and easy for the AI to understand.
+Straightforward Prompting is the simplest form of prompting where the user directly asks the AI to perform a task without providing additional context, examples, or formatting instructions.
 
 ## Example:
 ### Prompt 1:
@@ -90,7 +97,7 @@ Straightforward prompting is useful for obtaining quick answers but provides lim
 
 ---
 ### 2. Tabular Format Prompting:
-Tabular Format Prompting instructs the AI to organize information in a table. This is useful when customers have different types of problems and the chatbot needs to provide systematic responses.
+Tabular Format Prompting instructs the AI to present information in a table with rows and columns for easy comparison and analysis.
 
 ## Example:
 ### Prompt 1:
@@ -139,11 +146,33 @@ Provide a table listing five programming languages, their paradigms, and one use
 | JavaScript           | Event-Driven                | Web Development         |
 | R                    | Functional                  | Statistical Analysis    |
 
-### Advantage: 
-Information is organized and easy to compare.
+### Evaluation:
 
-### Limitation: 
-Tables may not be suitable for every conversational response.
+### Strengths:
+
+Information is well organized.
+Easy comparison of multiple items.
+Improves readability.
+
+### Weaknesses:
+
+Not suitable for lengthy explanations.
+Large tables may become complex.
+
+### Advantages:
+
+Better visualization of data.
+Quick understanding.
+Useful for reports and presentations.
+
+### Limitations:
+
+Limited descriptive detail.
+May oversimplify complex topics.
+
+### Conclusion:
+
+Tabular prompting is effective for comparisons and structured information presentation.
 
 ---
 ### 3. Missing Word Prompting:
@@ -174,11 +203,33 @@ In photosynthesis, plants absorb sunlight to produce ____.
 ### Output:
 food (glucose)
 
-### Advantage: 
-Useful for testing the AI's ability to understand context and predict relevant information.
+### Evaluation:
 
-### Limitation: 
-The AI may sometimes generate more than one possible answer.
+### Strengths:
+
+Tests contextual understanding.
+Useful for learning and assessments.
+Helps in language training.
+
+### Weaknesses:
+
+Limited to short responses.
+Not suitable for detailed explanations.
+
+### Advantages:
+
+Interactive learning.
+Quick evaluation of knowledge.
+Easy to create.
+
+### Limitations:
+
+Less effective for complex tasks.
+Depends on the clarity of the context.
+
+### Conclusion:
+
+Missing Word Prompting is valuable for educational activities, quizzes, and knowledge assessment.
 
 ---
 ### 4. Preceding Question Prompting:
@@ -209,14 +260,45 @@ How do vaccines work? Describe the process of immunization in simple terms.
 ### Output:
 Vaccines work by training the immune system to recognize and fight harmful germs. During immunization, a weakened or inactive form of a pathogen is introduced into the body, allowing the immune system to create antibodies and memory cells that provide protection against future infections.
 
-### Advantage: 
-Provides context and can produce more relevant answers.
+### Evaluation:
 
-### Limitation: 
-The prompt is slightly more complex than a straightforward prompt.
+### Strengths:
+
+Produces more focused responses.
+Encourages logical reasoning.
+Provides better context.
+
+### Weaknesses:
+
+Requires multiple questions.
+Slightly increases prompt length.
+
+### Advantages:
+
+Better accuracy.
+Improved coherence.
+Suitable for analytical tasks.
+
+### Limitations:
+
+More time needed to design prompts.
+Can become complex if too many questions are included.
+
+### Conclusion:
+
+Preceding Question Prompting enhances AI understanding by building context before requesting the final answer.
 
 ---
+### Importance of Prompting:
 
+Improves AI response quality.
+Reduces ambiguity.
+Produces accurate and relevant outputs.
+Enhances problem-solving capability.
+Helps generate structured content.
+Increases efficiency in AI interactions.
+
+---
 ### Comparative Summary:
 
 | Prompting Technique          | Purpose                               | Response Style              | Example Output                                  |
@@ -225,12 +307,15 @@ The prompt is slightly more complex than a straightforward prompt.
 | Tabular Format Prompting     | Organize and compare information      | Structured table            | Comparisons, classifications, data presentation |
 | Preceding Question Prompting | Provide context before the main query | Detailed and explanatory    | Concept explanation with reasoning              |
 | Missing Word Prompting       | Test completion and knowledge recall  | Single word or short phrase | Fill-in-the-blank answers                       |
+
 ---
 
 ## Conclusion:
-Different prompting techniques were explored and evaluated using multiple examples. Straightforward prompts produced direct answers, tabular prompts organized information systematically, preceding question prompts generated detailed explanations, and missing word prompts tested completion capabilities. The experiment demonstrated how prompt design influences the quality and structure of AI-generated responses.
+
+Prompting is the foundation of effective interaction with AI systems. Different prompting techniques serve different purposes: Straightforward Prompting provides direct answers, Tabular Format Prompting organizes information, Preceding Question Prompting improves reasoning through context, and Missing Word Prompting supports learning and assessment. Selecting the appropriate prompting technique leads to more accurate, structured, and meaningful AI-generated responses.
 
 ---
 ## Result: 
+
 Thus the various types of Prompts are executed successfully with generated the report. 
 
