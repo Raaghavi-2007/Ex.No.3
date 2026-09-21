@@ -58,11 +58,35 @@ List three advantages of electric vehicles.
 2. Lower fuel and maintenance costs.
 3. Improved energy efficiency.
 
-### Advantage: 
-Simple and quick to use.
+### Evaluation:
 
-### Limitation: 
-The response may be less structured or detailed.
+### Strengths:
+
+Easy to create and understand.
+Requires minimal effort.
+Suitable for simple tasks.
+
+### Weaknesses:
+
+Output may be too general.
+Lack of structure.
+Results may vary depending on interpretation.
+
+### Advantages:
+
+Quick response generation.
+User-friendly for beginners.
+Effective for simple information requests.
+
+### Limitations:
+
+Less control over output format.
+May miss important details.
+Inconsistent responses for complex tasks.
+
+### Conclusion:
+
+Straightforward prompting is useful for obtaining quick answers but provides limited control over response quality and structure.
 
 ---
 ### 2. Tabular Format Prompting:
